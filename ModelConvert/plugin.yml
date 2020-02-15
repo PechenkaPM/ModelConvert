@@ -1,0 +1,6 @@
+﻿main: Pechenka\model\ModelConvert
+api: [3.0.0]
+version: 1.0
+
+name: ModelConvert
+author: 3P
