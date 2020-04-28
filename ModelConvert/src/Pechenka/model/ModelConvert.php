@@ -17,7 +17,7 @@ class ModelConvert extends PluginBase implements Listener {
         if(!is_dir($f))
             @mkdir($f);
         $this->saveResource('default.json');
-        $this->saveResource('defaut.png');
+        $this->saveResource('default.png');
 
         $this->geometryData = file_get_contents($f . 'default.json');
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
